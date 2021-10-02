@@ -1,5 +1,5 @@
 # JGaming
-> JGaming Engine follow Hazel
+> JGaming Engine follow Hazel <br>
 > 本游戏引擎开发追随@chernoYOUTUBE的教程还有《游戏引擎架构》这一本书。希望自己能保持周更！
 
 - 入口点（是所有游戏引擎入口的地方，主要维持一个主循环）
