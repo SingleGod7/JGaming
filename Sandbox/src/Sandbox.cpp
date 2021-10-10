@@ -14,6 +14,7 @@ public:
 	}
 
 	void Run() {
+		/*
 		float A = 0, B = 0;
 		float i, j;
 		int k;
@@ -54,6 +55,7 @@ public:
 			}
 			
 		}
+		*/
 		while (true);
 	}
 };

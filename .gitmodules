@@ -1,0 +1,3 @@
+[submodule "JGaming/vendor/spdlog"]
+	path = JGaming/vendor/spdlog
+	url = https://github.com/gabime/spdlog

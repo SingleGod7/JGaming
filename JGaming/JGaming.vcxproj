@@ -53,6 +53,7 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <PreprocessorDefinitions>JG_PLATFORM_WINDOWS;JG_BUILD_DLL;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)JGaming\vendor\spdlog\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -74,9 +75,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\JGaming\Log.cpp" />
     <ClCompile Include="src\JGaming\Application.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\JGaming\Log.h" />
     <ClInclude Include="src\JGaming.h" />
     <ClInclude Include="src\JGaming\Application.h" />
     <ClInclude Include="src\JGaming\Core.h" />
